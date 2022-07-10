@@ -2,6 +2,7 @@ import express from "express"
 import cookieParser from "cookie-parser"
 import morgan from "morgan"
 import https from "https"
+import cors from "cors"
 
 import { SessionManager } from './session-manager.js'
 
@@ -9,6 +10,7 @@ const sessionManager = new SessionManager()
 const app = express()
 app.use(morgan("dev"))
 app.use(cookieParser())
+app.use(cors())
 const port = 3000
 const qrCodeBaseUrl="https://api.qrserver.com/v1/create-qr-code/"
 

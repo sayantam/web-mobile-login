@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/qr_scanner_24dp.xml" value="0.294" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33229166666666665" />
       </map>
     </option>
   </component>
